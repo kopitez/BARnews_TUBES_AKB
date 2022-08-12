@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:visibility="visible">
+
+    <data>
+
+        <variable
+            name="isBerita"
+            type="com.alv1n.barnewsalvin10119187.data.BeritaData" />
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/beritaGambar"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:imageUrl="@{isBerita.gambar}"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/beritaJudul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="@{isBerita.judul}"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold|normal" />
+
+                    <TextView
+                        android:id="@+id/beritaDeskripsi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="@{isBerita.deskripsi}"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="15sp"
+                        android:textStyle="bold|normal" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

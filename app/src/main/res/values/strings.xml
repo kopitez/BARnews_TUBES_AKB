@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BARNews</string>
+
+
+    <string name="notif_title">Berita Baru</string>
+    <string name="notif_message">Ada berita baru, yuk buka aplikasi!</string>
+    <string name="notif_channel_id" translatable="false">reminder</string>
+    <string name="notif_channel_name">Reminder</string>
+    <string name="notif_channel_desc">Reminder update data
+</string>
+    <string name="abt_sejarah">SEJARAH</string>
+    <string name="text_sejarah">\nAwal mula diciptakannya aplikasi ini adalah dimana kami sangat prihatin melihat korban bencana alam yang kadang kurang mendapatkan bantuan dari orang lain. \n \nKarena jika bukan kita, siapa lagi yang akan membantu. Ayo tolong sesama umat manusia yang mendapatkan <musibah class=""></musibah>\n</string>
+    <string name="abt_tujuan">TUJUAN</string>
+    <string name="text_tujuan">\nDengan aplikasi ini diciptakan kami berharap bantuan untuk korban bencana alam dapat meningkat dengan signifikan.\n \nDengan kita membantu mereka, kita pun membantu masa depan mereka dan membantu meraih mimpi mereka.</string>
+    <string name="text_alamat">\nJl. Raya Banjaran No 19 \nLangonsari, Kecamatan Pameungeuk 40376\nTelp (021) 764357\nSMS / WhatsApp: 085157011693 \nEmail : barnoymediapeduli@gmail.com</string>
+    <string name="lihat_lainnya">Lihat lainnya</string>
+    <string name="jdl_tunadaksa">Pendaftaran Tuna Daksa\n</string>
+    <string name="text_tndks1">Anda juga dapat berpatisipasi bantu sesama kita yang membutuhkan tangan dan kaki palsu dengan mendaftarkan diri, keluarga, kenalan atau siapa saja yang Anda nilai layak mendpatkan bantuan Tangan dan Kaki Palsu dari Kakiku Kini Kembali.Adapun syarat- syarat mendapatkkan bantuan sebagai berikut :\n</string>
+    <string name="jdl_donasi">Daftar Rekening Untuk Donasi</string>
+    <string name="dialog">Android Version 1.0</string>
+
+</resources>

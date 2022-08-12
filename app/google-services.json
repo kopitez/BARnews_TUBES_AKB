@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "955774160129",
+    "firebase_url": "https://barnewsapp-6d4dd-default-rtdb.firebaseio.com",
+    "project_id": "barnewsapp-6d4dd",
+    "storage_bucket": "barnewsapp-6d4dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955774160129:android:61398548862ddbf85f1f00",
+        "android_client_info": {
+          "package_name": "com.alv1n.barnewsalvin10119187"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955774160129-t79ivbmpd1infeb4t1cp3klpif615tge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMjRZXvYfTIXQCgCharmfK6Gi5F8X4nHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955774160129-t79ivbmpd1infeb4t1cp3klpif615tge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

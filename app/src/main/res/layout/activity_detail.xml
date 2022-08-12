@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="isData"
+            type="com.alv1n.barnewsalvin10119187.data.BeritaData" />
+
+
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".view.NewActivity">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/gambar"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginBottom="15dp"
+                    android:imageUrl="@{isData.gambar}"
+                    android:scaleType="fitXY" />
+                <View
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+                <TextView
+                    android:id="@+id/judul"
+                    android:layout_width="411dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:elevation="15dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@{isData.judul}"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold|normal" />
+                <View
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+                <TextView
+                    android:id="@+id/deskripsi"
+                    android:text="@{isData.deskripsi}"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:gravity="start"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold|normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+</layout>

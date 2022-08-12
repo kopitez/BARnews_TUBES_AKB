@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.donasi.DonasiFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="@string/jdl_donasi"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleViewRekening"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="40dp"
+            tools:listitem="@layout/item_rekening" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_whatsapp"
+            android:layout_width="427dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="10"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginEnd="32dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/whatsapp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:text="Whatsapp"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="18dp"
+            android:text="* Klik icon WhatsApp untuk informasi selanjutnya *"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>

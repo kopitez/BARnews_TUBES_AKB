@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alv1n.barnewsalvin10119187">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BARnewsalvin10119187">
+        <activity
+            android:name=".ui.donasi.transfer.BuktiTransferActivity" />
+        <activity
+            android:name=".ui.tunadaksa.berkas.tubuh.BerkasTubuhActivity"
+            />
+        <activity
+            android:name=".ui.tunadaksa.berkas.kk.BerkasKkActivity"
+            />
+        <activity
+            android:name=".ui.tunadaksa.berkas.ktp.BerkasKtpActivity"
+            />
+        <activity
+            android:name=".ui.home.activity.ActivityAcivity"
+            />
+        <activity
+            android:name=".ui.home.article.ArticleActivity"
+            />
+        <activity
+            android:name=".ui.home.detail.DetailContentActivity"
+            />
+        <activity
+            android:name=".MainActivity">
+
+        </activity>
+
+        <activity android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+    </application>
+
+
+</manifest>
